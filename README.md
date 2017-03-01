@@ -1,6 +1,6 @@
 # MeanApp
 
-App to demostrate building an angular 2 app in the MEAN stack with the Angular CLI.
+App to demonstrate building an angular 2 app in the MEAN stack with the Angular CLI.
 
 ## Set up.
 Make sure you have angular cli installed.
@@ -10,7 +10,7 @@ $ npm install -g angular-cli
 
 Clone the repo
 ```bash
-$ git clone https://github.com/gangachris/ng2-mean.git
+$ git clone https://github.com/bigmuflar/ang2-mean-app.git
 $ cd ng2-mean
 ```
 
