@@ -1,7 +1,7 @@
 import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { PostsComponent } from '../posts/posts.component';
+import { PostsComponent } from '../pages/posts/posts.component';
 
 const appRoutes: Routes = [
   {
