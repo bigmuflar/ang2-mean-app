@@ -18,9 +18,9 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-        "styles.css"
+        "styles.scss"
       ],
-      "scripts": ['node_modules/angular2-materialize'],
+      "scripts": ["app/shared/materialize/angular2-materialize/src/index.ts"],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
