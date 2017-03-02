@@ -7,6 +7,7 @@ const API = 'https://jsonplaceholder.typicode.com';
 
 /* GET api listing. */
 router.get('/', (req, res) => {
+  console.log(process.env.NODE_ENV);
   res.send('api works');
 });
 
@@ -21,6 +22,7 @@ router.get('/posts', (req, res) => {
     .catch(error => {
       res.status(500).send(error)
     });
+  // res.sendStatus(500)
 });
 
 module.exports = router;
