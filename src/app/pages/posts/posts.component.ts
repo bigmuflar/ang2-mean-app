@@ -4,7 +4,7 @@ import { PostsService } from '../../shared/services/posts.service';
 @Component({
   selector: 'app-posts',
   templateUrl: './posts.component.html',
-  styleUrls: ['./posts.component.css']
+  styleUrls: ['./posts.component.scss']
 })
 export class PostsComponent implements OnInit {
   // instantiate posts to an empty object
