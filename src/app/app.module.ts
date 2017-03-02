@@ -8,10 +8,11 @@ import { routing } from './routes/routes.component';
 import { AppComponent } from './app.component';
 import { PostsComponent } from './pages/posts/posts.component';
 
-import { PostsService } from './posts.service';
+import { PostsService } from './shared/services/posts.service';
 import { HighlightDirective } from './shared/directives/highlight.directive';
 import { MobileHideDirective } from './shared/directives/mobile-hide.directive';
 import { DateFormatPipe } from './shared/pipes/date-format.pipe';
+import { MenuComponent } from './shared/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { DateFormatPipe } from './shared/pipes/date-format.pipe';
     HighlightDirective,
     MobileHideDirective,
     DateFormatPipe,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
